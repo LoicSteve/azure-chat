@@ -22,7 +22,7 @@ completion = client.chat.completions.create(
       "role": "user",
       "content": "What are the differences between Azure Machine Learning and Azure AI services?"
     }],
-    max_tokens=800,
+    max_tokens=100,
     temperature=0.7,
     top_p=0.95,
     frequency_penalty=0,
